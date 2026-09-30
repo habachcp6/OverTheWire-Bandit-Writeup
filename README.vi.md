@@ -1,12 +1,12 @@
 # OverTheWire: Bandit Wargame - Writeup & Notes
 
-> 💡 **Thông báo:** Bản tài liệu tiếng Anh chuẩn hóa với từng file level độc lập có sẵn tại **[English Writeup Hub (README.md)](README.md)**.
+> **Thông báo:** Bản tài liệu tiếng Anh chuẩn hóa với từng file level độc lập có sẵn tại **[English Writeup Hub (README.md)](README.md)**.
 
 Repository tổng hợp writeup chi tiết, phương pháp giải và các kiến thức Linux/Security học được qua từng level của wargame [OverTheWire: Bandit](https://overthewire.org/wargames/bandit/).
 
 ---
 
-## 📋 Bảng tổng hợp Password & Credentials
+## Bảng tổng hợp Password & Credentials
 
 | Level | Username | Host | Port | Password / Access | Ghi chú ngắn |
 |---|---|---|---|---|---|
@@ -41,9 +41,9 @@ Repository tổng hợp writeup chi tiết, phương pháp giải và các kiế
 
 ---
 
-## 🚀 Chi tiết Writeup từng Level
+## Chi tiết Writeup từng Level
 
-### 🔹 Bandit Level 0 ➜ Level 1
+### Bandit Level 0 ➜ Level 1
 
 #### 1. Mục tiêu (Objective)
 Đăng nhập vào hệ thống bằng SSH ở tài khoản `bandit0`, sau đó tìm mật khẩu cho `bandit1` trong file `readme` tại thư mục home.
@@ -77,7 +77,7 @@ Repository tổng hợp writeup chi tiết, phương pháp giải và các kiế
 
 ---
 
-### 🔹 Bandit Level 1 ➜ Level 2
+### Bandit Level 1 ➜ Level 2
 
 #### 1. Mục tiêu (Objective)
 Đăng nhập vào tài khoản `bandit1` bằng mật khẩu vừa tìm được, sau đó đọc mật khẩu cho `bandit2` được lưu trong file có tên đặc biệt là `-` (dấu gạch nối) tại thư mục home.
@@ -118,7 +118,7 @@ Repository tổng hợp writeup chi tiết, phương pháp giải và các kiế
 
 ---
 
-### 🔹 Bandit Level 2 ➜ Level 3
+### Bandit Level 2 ➜ Level 3
 
 #### 1. Mục tiêu (Objective)
 Đăng nhập vào tài khoản `bandit2` và tìm mật khẩu cho `bandit3` được lưu trong một file có chứa dấu cách và dấu gạch ngang ở tên: `--spaces in this filename--`.
@@ -155,7 +155,7 @@ Repository tổng hợp writeup chi tiết, phương pháp giải và các kiế
 
 ---
 
-### 🔹 Bandit Level 3 ➜ Level 4
+### Bandit Level 3 ➜ Level 4
 
 #### 1. Mục tiêu (Objective)
 Đăng nhập vào tài khoản `bandit3` và tìm mật khẩu cho `bandit4` được lưu trong một **file ẩn (hidden file)** bên trong thư mục **`inhere`**.
@@ -192,7 +192,7 @@ Repository tổng hợp writeup chi tiết, phương pháp giải và các kiế
 
 ---
 
-### 🔹 Bandit Level 4 ➜ Level 5
+### Bandit Level 4 ➜ Level 5
 
 #### 1. Mục tiêu (Objective)
 Đăng nhập vào tài khoản `bandit4` và tìm mật khẩu cho `bandit5`. Mật khẩu được lưu trong **tệp duy nhất có thể đọc được bằng mắt thường (human-readable / ASCII text)** bên trong thư mục `inhere`.
@@ -225,7 +225,7 @@ Repository tổng hợp writeup chi tiết, phương pháp giải và các kiế
 
 ---
 
-### 🔹 Bandit Level 5 ➜ Level 6
+### Bandit Level 5 ➜ Level 6
 
 #### 1. Mục tiêu (Objective)
 Đăng nhập vào tài khoản `bandit5` và tìm mật khẩu cho `bandit6`. Mật khẩu nằm trong thư mục `inhere` và thỏa mãn:
@@ -257,7 +257,7 @@ Repository tổng hợp writeup chi tiết, phương pháp giải và các kiế
 
 ---
 
-### 🔹 Bandit Level 6 ➜ Level 7
+### Bandit Level 6 ➜ Level 7
 
 #### 1. Mục tiêu (Objective)
 Đăng nhập vào tài khoản `bandit6` và tìm mật khẩu cho `bandit7`. Mật khẩu được lưu **ở bất kỳ đâu trên toàn bộ máy chủ (somewhere on the server)** và thỏa mãn cả 3 điều kiện:
@@ -292,7 +292,7 @@ Repository tổng hợp writeup chi tiết, phương pháp giải và các kiế
 
 ---
 
-### 🔹 Bandit Level 7 ➜ Level 8
+### Bandit Level 7 ➜ Level 8
 
 #### 1. Mục tiêu (Objective)
 Đăng nhập vào tài khoản `bandit7` và tìm mật khẩu cho `bandit8`. Mật khẩu nằm trong file **`data.txt`** ngay cạnh từ **`millionth`**.
@@ -334,7 +334,7 @@ Repository tổng hợp writeup chi tiết, phương pháp giải và các kiế
 
 ---
 
-### 🔹 Bandit Level 8 ➜ Level 9
+### Bandit Level 8 ➜ Level 9
 
 #### 1. Mục tiêu (Objective)
 Đăng nhập vào tài khoản `bandit8` và tìm mật khẩu cho `bandit9`. Mật khẩu nằm trong file **`data.txt`** và là **dòng văn bản duy nhất chỉ xuất hiện đúng 1 lần (occurs only once)** trong toàn bộ file.
@@ -343,7 +343,7 @@ Repository tổng hợp writeup chi tiết, phương pháp giải và các kiế
 * **Lệnh `uniq`:** Dùng để lọc bỏ các dòng trùng lặp.
   * Tham số `-u` (unique): Chỉ in ra những dòng xuất hiện duy nhất 1 lần.
   * Tham số `-c` (count): Đếm và in số lần xuất hiện của từng dòng.
-* **⚠️ Lưu ý sống còn:** `uniq` chỉ so sánh các dòng nằm **kề nhau**. Do đó bắt buộc phải dùng lệnh `sort` trước để gom các dòng trùng nhau lại cạnh nhau, sau đó mới truyền qua `uniq`.
+* **Lưu ý quan trọng:** `uniq` chỉ so sánh các dòng nằm **kề nhau**. Do đó bắt buộc phải dùng lệnh `sort` trước để gom các dòng trùng nhau lại cạnh nhau, sau đó mới truyền qua `uniq`.
 
 #### 3. Quá trình thực hiện (Walkthrough)
 1. **Thoát phiên `bandit7` và kết nối vào `bandit8`:**
@@ -369,7 +369,7 @@ Repository tổng hợp writeup chi tiết, phương pháp giải và các kiế
 
 ---
 
-### 🔹 Bandit Level 9 ➜ Level 10
+### Bandit Level 9 ➜ Level 10
 
 #### 1. Mục tiêu (Objective)
 Đăng nhập vào tài khoản `bandit9` và tìm mật khẩu cho `bandit10`. Mật khẩu nằm trong file **`data.txt`**, là một trong số ít các chuỗi có thể đọc được bằng mắt thường (human-readable strings) và được bắt đầu bởi nhiều ký tự **`=`** (`preceded by several '=' characters`).
@@ -408,7 +408,7 @@ Repository tổng hợp writeup chi tiết, phương pháp giải và các kiế
 
 ---
 
-### 🔹 Bandit Level 10 ➜ Level 11
+### Bandit Level 10 ➜ Level 11
 
 #### 1. Mục tiêu (Objective)
 Đăng nhập vào tài khoản `bandit10` và tìm mật khẩu cho `bandit11`. Mật khẩu được lưu trong file **`data.txt`** chứa dữ liệu đã bị mã hóa dạng **Base64** (`contains base64 encoded data`).
@@ -439,7 +439,7 @@ Repository tổng hợp writeup chi tiết, phương pháp giải và các kiế
 
 ---
 
-### 🔹 Bandit Level 11 ➜ Level 12
+### Bandit Level 11 ➜ Level 12
 
 #### 1. Mục tiêu (Objective)
 Đăng nhập vào tài khoản `bandit11` và tìm mật khẩu cho `bandit12`. Mật khẩu nằm trong file **`data.txt`**, trong đó toàn bộ chữ cái thường (`a-z`) và chữ cái hoa (`A-Z`) đã bị **dịch chuyển 13 vị trí (ROT13 - rotated by 13 positions)**.
@@ -471,7 +471,7 @@ Repository tổng hợp writeup chi tiết, phương pháp giải và các kiế
 
 ---
 
-### 🔹 Bandit Level 12 ➜ Level 13
+### Bandit Level 12 ➜ Level 13
 
 #### 1. Mục tiêu (Objective)
 Đăng nhập vào tài khoản `bandit12` và tìm mật khẩu cho `bandit13`. Mật khẩu nằm trong file **`data.txt`**, là một bản **Hexdump** của một tệp tin đã bị **nén lặp đi lặp lại nhiều lần bằng các thuật toán nén khác nhau (repeatedly compressed)**.
@@ -540,7 +540,7 @@ Repository tổng hợp writeup chi tiết, phương pháp giải và các kiế
 
 ---
 
-### 🔹 Bandit Level 13 ➜ Level 14
+### Bandit Level 13 ➜ Level 14
 
 #### 1. Mục tiêu (Objective)
 Đăng nhập vào tài khoản `bandit13` và tìm mật khẩu cho `bandit14`. Mật khẩu nằm ở file **`/etc/bandit_pass/bandit14`** và chỉ có thể đọc bởi user `bandit14`.
@@ -604,7 +604,7 @@ Repository tổng hợp writeup chi tiết, phương pháp giải và các kiế
 
 ---
 
-### 🔹 Bandit Level 14 ➜ Level 15
+### Bandit Level 14 ➜ Level 15
 
 #### 1. Mục tiêu (Objective)
 Đăng nhập vào tài khoản `bandit14` và tìm mật khẩu cho `bandit15`. Mật khẩu của level tiếp theo được lấy bằng cách gửi mật khẩu của level hiện tại (`bandit14`) tới **cổng 30000 trên localhost** (`port 30000 on localhost`).
@@ -637,7 +637,7 @@ Repository tổng hợp writeup chi tiết, phương pháp giải và các kiế
 
 ---
 
-### 🔹 Bandit Level 15 ➜ Level 16
+### Bandit Level 15 ➜ Level 16
 
 #### 1. Mục tiêu (Objective)
 Đăng nhập vào tài khoản `bandit15` bằng mật khẩu vừa tìm được. Mật khẩu cho `bandit16` được lấy bằng cách gửi mật khẩu của `bandit15` tới **cổng 30001 trên localhost** sử dụng **mã hóa SSL/TLS** (`port 30001 on localhost using SSL/TLS encryption`).
@@ -680,7 +680,7 @@ Repository tổng hợp writeup chi tiết, phương pháp giải và các kiế
 
 ---
 
-### 🔹 Bandit Level 16 ➜ Level 17
+### Bandit Level 16 ➜ Level 17
 
 #### 1. Mục tiêu (Objective)
 Đăng nhập vào tài khoản `bandit16` bằng mật khẩu vừa tìm được. Tìm thông tin xác thực (credentials/password hoặc private key) cho `bandit17` bằng cách gửi mật khẩu của `bandit16` tới **một cổng trên localhost trong dải từ 31000 đến 32000**.
@@ -729,7 +729,7 @@ Repository tổng hợp writeup chi tiết, phương pháp giải và các kiế
 
 ---
 
-### 🔹 Bandit Level 17 ➜ Level 18
+### Bandit Level 17 ➜ Level 18
 
 #### 1. Mục tiêu (Objective)
 Đăng nhập vào tài khoản `bandit17` bằng SSH Private Key vừa thu được. Trong thư mục home có 2 file: **`passwords.old`** và **`passwords.new`**. Mật khẩu cho `bandit18` nằm trong file **`passwords.new`** và là **dòng duy nhất có sự thay đổi giữa 2 file `passwords.old` và `passwords.new`**.
@@ -771,7 +771,7 @@ Repository tổng hợp writeup chi tiết, phương pháp giải và các kiế
 
 ---
 
-### 🔹 Bandit Level 18 ➜ Level 19
+### Bandit Level 18 ➜ Level 19
 
 #### 1. Mục tiêu (Objective)
 Đăng nhập vào tài khoản `bandit18` bằng mật khẩu vừa tìm được. Tìm mật khẩu cho `bandit19` được lưu trong file **`readme`** tại thư mục home.
@@ -806,7 +806,7 @@ Repository tổng hợp writeup chi tiết, phương pháp giải và các kiế
 
 ---
 
-### 🔹 Bandit Level 19 ➜ Level 20
+### Bandit Level 19 ➜ Level 20
 
 #### 1. Mục tiêu (Objective)
 Đăng nhập vào tài khoản `bandit19` bằng mật khẩu vừa tìm được. Trong thư mục home có một file thực thi đặc biệt mang tên **`bandit20-do`**. Sử dụng file này để tìm mật khẩu cho `bandit20` được lưu tại vị trí chuẩn quen thuộc: **`/etc/bandit_pass/bandit20`**.
@@ -856,7 +856,7 @@ Repository tổng hợp writeup chi tiết, phương pháp giải và các kiế
 
 ---
 
-### 🔹 Bandit Level 20 ➜ Level 21
+### Bandit Level 20 ➜ Level 21
 
 #### 1. Mục tiêu (Objective)
 Đăng nhập vào tài khoản `bandit20` bằng mật khẩu vừa tìm được. Trong thư mục home có một file thực thi mang cờ SUID mang tên **`suconnect`**. File này sẽ thực hiện một kết nối TCP tới `localhost` tại một cổng do người dùng chỉ định qua đối số dòng lệnh, đọc mật khẩu gửi tới và so sánh với mật khẩu của level hiện tại (`bandit20`). Nếu mật khẩu đúng, nó sẽ gửi trả về mật khẩu của `bandit21`.
@@ -903,7 +903,7 @@ Repository tổng hợp writeup chi tiết, phương pháp giải và các kiế
 
 ---
 
-### 🔹 Bandit Level 21 ➜ Level 22
+### Bandit Level 21 ➜ Level 22
 
 #### 1. Mục tiêu (Objective)
 Đăng nhập vào tài khoản `bandit21` bằng mật khẩu vừa tìm được. Một chương trình đang được hệ thống tự động thực thi theo chu kỳ định kỳ thông qua **`cron`** (trình lập lịch tác vụ theo thời gian của Linux). 
@@ -972,7 +972,7 @@ Repository tổng hợp writeup chi tiết, phương pháp giải và các kiế
 
 ---
 
-### 🔹 Bandit Level 22 ➜ Level 23
+### Bandit Level 22 ➜ Level 23
 
 #### 1. Mục tiêu (Objective)
 Đăng nhập vào tài khoản `bandit22` bằng mật khẩu vừa tìm được. Tương tự như bài trước, có một tiến trình `cron` tự động chạy định kỳ trong `/etc/cron.d/`. Nhiệm vụ là phân tích file cấu hình và dịch ngược script shell đang chạy để tính toán ra vị trí file mật khẩu của `bandit23`.
@@ -1026,7 +1026,7 @@ Repository tổng hợp writeup chi tiết, phương pháp giải và các kiế
 
 ---
 
-### 🔹 Bandit Level 23 ➜ Level 24
+### Bandit Level 23 ➜ Level 24
 
 #### 1. Mục tiêu (Objective)
 Đăng nhập vào tài khoản `bandit23` bằng mật khẩu vừa tìm được. Một tiến trình `cron` tự động chạy định kỳ trong `/etc/cron.d/`. Nhiệm vụ là phân tích script đang chạy, tự viết một Shell Script thực thi của riêng mình và đặt vào thư mục chỉ định để Cron Job của `bandit24` tự động thực thi script đó và đọc mật khẩu cho sếp!
@@ -1095,7 +1095,7 @@ Repository tổng hợp writeup chi tiết, phương pháp giải và các kiế
 
 ---
 
-### 🔹 Bandit Level 24 ➜ Level 25
+### Bandit Level 24 ➜ Level 25
 
 #### 1. Mục tiêu (Objective)
 Đăng nhập vào tài khoản `bandit24` bằng mật khẩu vừa tìm được. Một daemon dịch vụ đang lắng nghe trên cổng **`30002`** tại `localhost`. Dịch vụ này sẽ cấp mật khẩu của `bandit25` nếu nhận được đúng định dạng:
@@ -1141,7 +1141,7 @@ Mã PIN là một số có 4 chữ số (từ `0000` đến `9999`). Nhiệm v�
 
 ---
 
-### 🔹 Bandit Level 25 ➜ Level 26
+### Bandit Level 25 ➜ Level 26
 
 #### 1. Mục tiêu (Objective)
 Đăng nhập vào tài khoản `bandit25` bằng mật khẩu vừa tìm được. Trong thư mục home của `bandit25` có file SSH private key của `bandit26` (`bandit26.sshkey`). Tuy nhiên, shell mặc định của `bandit26` không phải là `/bin/bash` mà là một custom shell. Nhiệm vụ là tìm hiểu cách hoạt động của shell này và tìm cách thoát khỏi môi trường bị giam cầm (Restricted Shell Breakout).
@@ -1212,7 +1212,7 @@ Mã PIN là một số có 4 chữ số (từ `0000` đến `9999`). Nhiệm v�
 
 ---
 
-### 🔹 Bandit Level 26 ➜ Level 27
+### Bandit Level 26 ➜ Level 27
 
 #### 1. Mục tiêu (Objective)
 Từ phiên làm việc hiện tại của `bandit26`, tìm mật khẩu cho `bandit27` được lưu trong file quen thuộc `/etc/bandit_pass/bandit27`.

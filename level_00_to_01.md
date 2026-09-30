@@ -11,13 +11,13 @@
 
 ---
 
-## 🎯 Challenge Description
+## Challenge Description
 
 The goal of this level is for you to log into the game using SSH. The host to which you need to connect is `bandit.labs.overthewire.org`, on port `2220`. The username is `bandit0` and the password is `bandit0`. Once logged in, read the file `readme` located in the home directory.
 
 ---
 
-## 🔬 Technical Analysis
+## Technical Analysis
 
 ### Linux File System & SSH Basics
 1. **Secure Shell (SSH) Protocol**:
@@ -27,7 +27,7 @@ The goal of this level is for you to log into the game using SSH. The host to wh
 
 ---
 
-## 🚀 Solution Walkthrough
+## Solution Walkthrough
 
 ### Step 1: Establish SSH Connection
 Open your terminal and connect to the OverTheWire server:
@@ -67,7 +67,7 @@ cat readme
 
 ---
 
-## 🔑 Password Found
+## Password Found
 
 ```text
 6y2kwnwK6grgvwvpvLaa2T1cpFEKOhNR
@@ -75,7 +75,7 @@ cat readme
 
 ---
 
-## 💡 Key Takeaways
+## Key Takeaways
 
 - SSH connections on non-standard ports require the `-p <port>` parameter.
 - `ls -la` lists all files including hidden dotfiles with permissions and ownership.
@@ -83,4 +83,4 @@ cat readme
 
 ---
 
-[← Level 0] | [📋 Summary](README.md) | [Next Level →](level_01_to_02.md)
+[← Level 0] | [Summary](README.md) | [Next Level →](level_01_to_02.md)

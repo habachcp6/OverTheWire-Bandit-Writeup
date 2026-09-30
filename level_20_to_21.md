@@ -11,13 +11,13 @@
 
 ---
 
-## 🎯 Challenge Description
+## Challenge Description
 
 There is a setuid binary in the homedirectory that does the following: it makes a connection to localhost on the port you specify as a commandline argument. It then reads a line of text from the connection and compares it to the password in the previous level (bandit20). If the password is correct, it will transmit the password for the next level (bandit21).
 
 ---
 
-## 🔬 Technical Analysis
+## Technical Analysis
 
 ### Inter-Process Networking & Job Control
 1. **The `suconnect` Architecture**:
@@ -29,7 +29,7 @@ There is a setuid binary in the homedirectory that does the following: it makes 
 
 ---
 
-## 🚀 Solution Walkthrough
+## Solution Walkthrough
 
 ### Step 1: Connect via SSH
 ```bash
@@ -57,7 +57,7 @@ bW9kBv5WC3P4yoDyf12LSdGuNz5ka6hY
 
 ---
 
-## 🔑 Password Found
+## Password Found
 
 ```text
 bW9kBv5WC3P4yoDyf12LSdGuNz5ka6hY
@@ -65,11 +65,11 @@ bW9kBv5WC3P4yoDyf12LSdGuNz5ka6hY
 
 ---
 
-## 💡 Key Takeaways
+## Key Takeaways
 
 - Use `&` to run listening network daemons in the background within a single shell session.
 - SUID clients that exchange secrets over local loopback sockets can be spoofed or intercepted.
 
 ---
 
-[← Previous Level](level_19_to_20.md) | [📋 Summary](README.md) | [Next Level →](level_21_to_22.md)
+[← Previous Level](level_19_to_20.md) | [Summary](README.md) | [Next Level →](level_21_to_22.md)

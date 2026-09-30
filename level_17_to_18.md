@@ -11,13 +11,13 @@
 
 ---
 
-## 🎯 Challenge Description
+## Challenge Description
 
 There are 2 files in the homedirectory: `passwords.old` and `passwords.new`. The password for the next level is in `passwords.new` and is the only line that has been changed between `passwords.old` and `passwords.new`.
 
 ---
 
-## 🔬 Technical Analysis
+## Technical Analysis
 
 ### File Difference Comparison (`diff`)
 1. **Differential Analysis**:
@@ -28,7 +28,7 @@ There are 2 files in the homedirectory: `passwords.old` and `passwords.new`. The
 
 ---
 
-## 🚀 Solution Walkthrough
+## Solution Walkthrough
 
 ### Step 1: Connect to Bandit 17 via SSH Key
 ```bash
@@ -49,7 +49,7 @@ diff passwords.old passwords.new
 
 ---
 
-## 🔑 Password Found
+## Password Found
 
 ```text
 OQxXZjELndr90zuhOTDYBEomI0SZITXI
@@ -57,11 +57,11 @@ OQxXZjELndr90zuhOTDYBEomI0SZITXI
 
 ---
 
-## 💡 Key Takeaways
+## Key Takeaways
 
 - Use `diff <file1> <file2>` to instantly identify modified records between revisions.
 - `>` denotes lines added/changed in the second file.
 
 ---
 
-[← Previous Level](level_16_to_17.md) | [📋 Summary](README.md) | [Next Level →](level_18_to_19.md)
+[← Previous Level](level_16_to_17.md) | [Summary](README.md) | [Next Level →](level_18_to_19.md)

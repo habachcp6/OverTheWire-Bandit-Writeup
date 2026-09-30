@@ -11,13 +11,13 @@
 
 ---
 
-## 🎯 Challenge Description
+## Challenge Description
 
 The password for the next level is stored in the file `data.txt` next to the word `millionth`.
 
 ---
 
-## 🔬 Technical Analysis
+## Technical Analysis
 
 ### Fast Text Pattern Matching with `grep`
 1. **Grep Utility**:
@@ -27,7 +27,7 @@ The password for the next level is stored in the file `data.txt` next to the wor
 
 ---
 
-## 🚀 Solution Walkthrough
+## Solution Walkthrough
 
 ### Step 1: Connect via SSH
 ```bash
@@ -46,7 +46,7 @@ millionth	VR1ljMayciFxbnUokuQmJFw6QC9VKtub
 
 ---
 
-## 🔑 Password Found
+## Password Found
 
 ```text
 VR1ljMayciFxbnUokuQmJFw6QC9VKtub
@@ -54,11 +54,11 @@ VR1ljMayciFxbnUokuQmJFw6QC9VKtub
 
 ---
 
-## 💡 Key Takeaways
+## Key Takeaways
 
 - `grep <pattern> <file>` quickly extracts matching records from massive text files.
 - Directly passing the filename to `grep` is more efficient than piping from `cat`.
 
 ---
 
-[← Previous Level](level_06_to_07.md) | [📋 Summary](README.md) | [Next Level →](level_08_to_09.md)
+[← Previous Level](level_06_to_07.md) | [Summary](README.md) | [Next Level →](level_08_to_09.md)

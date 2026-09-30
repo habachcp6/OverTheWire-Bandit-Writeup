@@ -11,7 +11,7 @@
 
 ---
 
-## 🎯 Challenge Description
+## Challenge Description
 
 The password for the next level is stored in a file somewhere under the `inhere` directory and has all of the following properties:
 - human-readable
@@ -20,7 +20,7 @@ The password for the next level is stored in a file somewhere under the `inhere`
 
 ---
 
-## 🔬 Technical Analysis
+## Technical Analysis
 
 ### Deep File Searching with `find`
 1. **Filtering by Size (`-size`)**:
@@ -34,7 +34,7 @@ The password for the next level is stored in a file somewhere under the `inhere`
 
 ---
 
-## 🚀 Solution Walkthrough
+## Solution Walkthrough
 
 ### Step 1: Connect via SSH
 ```bash
@@ -62,7 +62,7 @@ pXa26xhMWaC2SvDotA4r9EgZkulOeSBW
 
 ---
 
-## 🔑 Password Found
+## Password Found
 
 ```text
 pXa26xhMWaC2SvDotA4r9EgZkulOeSBW
@@ -70,11 +70,11 @@ pXa26xhMWaC2SvDotA4r9EgZkulOeSBW
 
 ---
 
-## 💡 Key Takeaways
+## Key Takeaways
 
 - The `find` utility is essential for locating files across nested directory trees.
 - `-size <N>c` matches exact byte sizes, while `!` negates matching expressions.
 
 ---
 
-[← Previous Level](level_04_to_05.md) | [📋 Summary](README.md) | [Next Level →](level_06_to_07.md)
+[← Previous Level](level_04_to_05.md) | [Summary](README.md) | [Next Level →](level_06_to_07.md)

@@ -11,13 +11,13 @@
 
 ---
 
-## 🎯 Challenge Description
+## Challenge Description
 
 The password for the next level can be retrieved by submitting the password of the current level to port 30000 on localhost.
 
 ---
 
-## 🔬 Technical Analysis
+## Technical Analysis
 
 ### Raw TCP Socket Communication with Netcat
 1. **Netcat (`nc`) as TCP Client**:
@@ -28,7 +28,7 @@ The password for the next level can be retrieved by submitting the password of t
 
 ---
 
-## 🚀 Solution Walkthrough
+## Solution Walkthrough
 
 ### Step 1: Connect via SSH
 ```bash
@@ -48,7 +48,7 @@ pbLYuZtTg4MgaqfJx8jbA9gKKGqM68A7
 
 ---
 
-## 🔑 Password Found
+## Password Found
 
 ```text
 pbLYuZtTg4MgaqfJx8jbA9gKKGqM68A7
@@ -56,11 +56,11 @@ pbLYuZtTg4MgaqfJx8jbA9gKKGqM68A7
 
 ---
 
-## 💡 Key Takeaways
+## Key Takeaways
 
 - Use `nc <host> <port>` to interact with plain-text TCP socket services.
 - Pipes allow seamless automation of network payload delivery.
 
 ---
 
-[← Previous Level](level_13_to_14.md) | [📋 Summary](README.md) | [Next Level →](level_15_to_16.md)
+[← Previous Level](level_13_to_14.md) | [Summary](README.md) | [Next Level →](level_15_to_16.md)

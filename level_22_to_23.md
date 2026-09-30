@@ -11,13 +11,13 @@
 
 ---
 
-## 🎯 Challenge Description
+## Challenge Description
 
 A program is running automatically at regular intervals from `cron`, the time-based job scheduler. Look in `/etc/cron.d/` for the configuration and see what command is being executed.
 
 ---
 
-## 🔬 Technical Analysis
+## Technical Analysis
 
 ### Reverse Engineering Shell Logic & Dynamic Hashing
 1. **Inspecting `/usr/bin/cronjob_bandit23.sh`**:
@@ -33,7 +33,7 @@ A program is running automatically at regular intervals from `cron`, the time-ba
 
 ---
 
-## 🚀 Solution Walkthrough
+## Solution Walkthrough
 
 ### Step 1: Connect via SSH
 ```bash
@@ -66,7 +66,7 @@ gKXDTAXnIz3OBxiPjRZ2uqutUlPZrBsw
 
 ---
 
-## 🔑 Password Found
+## Password Found
 
 ```text
 gKXDTAXnIz3OBxiPjRZ2uqutUlPZrBsw
@@ -74,11 +74,11 @@ gKXDTAXnIz3OBxiPjRZ2uqutUlPZrBsw
 
 ---
 
-## 💡 Key Takeaways
+## Key Takeaways
 
 - Deconstruct script variables and emulate execution environments to find dynamically named assets.
 - Deterministic hash algorithms (MD5) without secret salts are completely predictable.
 
 ---
 
-[← Previous Level](level_21_to_22.md) | [📋 Summary](README.md) | [Next Level →](level_23_to_24.md)
+[← Previous Level](level_21_to_22.md) | [Summary](README.md) | [Next Level →](level_23_to_24.md)

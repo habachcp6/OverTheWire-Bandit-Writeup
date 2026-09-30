@@ -11,13 +11,13 @@
 
 ---
 
-## 🎯 Challenge Description
+## Challenge Description
 
 The password for the next level is stored in `/etc/bandit_pass/bandit14` and can only be read by user bandit14. For this level, you don't get the next password, but you get a private SSH key that can be used to log into the next level.
 
 ---
 
-## 🔬 Technical Analysis
+## Technical Analysis
 
 ### Asymmetric Cryptography & SSH Key-Based Authentication
 1. **Public Key vs. Private Key**:
@@ -31,7 +31,7 @@ The password for the next level is stored in `/etc/bandit_pass/bandit14` and can
 
 ---
 
-## 🚀 Solution Walkthrough
+## Solution Walkthrough
 
 ### Step 1: Connect via SSH
 ```bash
@@ -56,7 +56,7 @@ aaWecNkG4FhxJQxz07uiwzVP6bJiYS65
 
 ---
 
-## 🔑 Password Found
+## Password Found
 
 ```text
 aaWecNkG4FhxJQxz07uiwzVP6bJiYS65
@@ -64,11 +64,11 @@ aaWecNkG4FhxJQxz07uiwzVP6bJiYS65
 
 ---
 
-## 💡 Key Takeaways
+## Key Takeaways
 
 - SSH key pairs allow passwordless cryptographic authentication.
 - Target-level passwords on OverTheWire reside in `/etc/bandit_pass/bandit<N>`.
 
 ---
 
-[← Previous Level](level_12_to_13.md) | [📋 Summary](README.md) | [Next Level →](level_14_to_15.md)
+[← Previous Level](level_12_to_13.md) | [Summary](README.md) | [Next Level →](level_14_to_15.md)

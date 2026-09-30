@@ -11,13 +11,13 @@
 
 ---
 
-## 🎯 Challenge Description
+## Challenge Description
 
 The password for the next level is stored in a file `readme` in the homedirectory. Unfortunately, someone has modified `.bashrc` to log you out when you log in with SSH.
 
 ---
 
-## 🔬 Technical Analysis
+## Technical Analysis
 
 ### SSH Shell Initialization vs. Non-Interactive Command Execution
 1. **Interactive Shell vs. `.bashrc`**:
@@ -27,7 +27,7 @@ The password for the next level is stored in a file `readme` in the homedirector
 
 ---
 
-## 🚀 Solution Walkthrough
+## Solution Walkthrough
 
 ### Step 1: Execute Direct Remote Command via SSH
 ```bash
@@ -44,7 +44,7 @@ KpsOfPkcP7i1FlIExk2QEjyt6dw8dxZI
 
 ---
 
-## 🔑 Password Found
+## Password Found
 
 ```text
 KpsOfPkcP7i1FlIExk2QEjyt6dw8dxZI
@@ -52,11 +52,11 @@ KpsOfPkcP7i1FlIExk2QEjyt6dw8dxZI
 
 ---
 
-## 💡 Key Takeaways
+## Key Takeaways
 
 - Non-interactive SSH commands (`ssh user@host "cmd"`) do not load interactive startup scripts like `.bashrc`.
 - This technique allows operators to bypass rogue or broken login environments.
 
 ---
 
-[← Previous Level](level_17_to_18.md) | [📋 Summary](README.md) | [Next Level →](level_19_to_20.md)
+[← Previous Level](level_17_to_18.md) | [Summary](README.md) | [Next Level →](level_19_to_20.md)

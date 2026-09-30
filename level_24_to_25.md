@@ -11,13 +11,13 @@
 
 ---
 
-## 🎯 Challenge Description
+## Challenge Description
 
 A daemon is listening on port 30002 and will give you the password for bandit25 if given the password for bandit24 and a secret numeric 4-digit pincode. There is no way to retrieve the pincode except by going through all of the 10000 combinations, called brute-forcing. You do not need to create new connections each time.
 
 ---
 
-## 🔬 Technical Analysis
+## Technical Analysis
 
 ### Automated Network Socket Brute-Forcing via Bash
 1. **Daemon Protocol**:
@@ -31,7 +31,7 @@ A daemon is listening on port 30002 and will give you the password for bandit25 
 
 ---
 
-## 🚀 Solution Walkthrough
+## Solution Walkthrough
 
 ### Step 1: Connect via SSH
 ```bash
@@ -54,7 +54,7 @@ The password of user bandit25 is SoHfqMOEqIX2IYKVciZxvgpR9a2Djx4P
 
 ---
 
-## 🔑 Password Found
+## Password Found
 
 ```text
 SoHfqMOEqIX2IYKVciZxvgpR9a2Djx4P
@@ -62,7 +62,7 @@ SoHfqMOEqIX2IYKVciZxvgpR9a2Djx4P
 
 ---
 
-## 💡 Key Takeaways
+## Key Takeaways
 
 - Brace expansion `{0000..9999}` generates zero-padded numerical sequences instantly in Bash.
 - Piping data into Netcat avoids per-attempt network handshake latency.
@@ -70,4 +70,4 @@ SoHfqMOEqIX2IYKVciZxvgpR9a2Djx4P
 
 ---
 
-[← Previous Level](level_23_to_24.md) | [📋 Summary](README.md) | [Next Level →](level_25_to_26.md)
+[← Previous Level](level_23_to_24.md) | [Summary](README.md) | [Next Level →](level_25_to_26.md)

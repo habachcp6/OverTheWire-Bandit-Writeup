@@ -11,13 +11,13 @@
 
 ---
 
-## 🎯 Challenge Description
+## Challenge Description
 
 The password for the next level is stored in a file called `-` located in the home directory.
 
 ---
 
-## 🔬 Technical Analysis
+## Technical Analysis
 
 ### Command-Line Argument Parsing Pitfalls
 In Unix-like systems and POSIX command-line utilities:
@@ -29,7 +29,7 @@ In Unix-like systems and POSIX command-line utilities:
 
 ---
 
-## 🚀 Solution Walkthrough
+## Solution Walkthrough
 
 ### Step 1: Connect via SSH
 ```bash
@@ -62,7 +62,7 @@ PK8fYLZg2hnHSz83plBL1iEPKdD3QToB
 
 ---
 
-## 🔑 Password Found
+## Password Found
 
 ```text
 PK8fYLZg2hnHSz83plBL1iEPKdD3QToB
@@ -70,7 +70,7 @@ PK8fYLZg2hnHSz83plBL1iEPKdD3QToB
 
 ---
 
-## 💡 Key Takeaways
+## Key Takeaways
 
 - A single `-` represents STDIN in most Linux CLI tools.
 - Always prefix special/unsafe filenames with `./` to prevent argument injection.
@@ -78,4 +78,4 @@ PK8fYLZg2hnHSz83plBL1iEPKdD3QToB
 
 ---
 
-[← Previous Level](level_00_to_01.md) | [📋 Summary](README.md) | [Next Level →](level_02_to_03.md)
+[← Previous Level](level_00_to_01.md) | [Summary](README.md) | [Next Level →](level_02_to_03.md)

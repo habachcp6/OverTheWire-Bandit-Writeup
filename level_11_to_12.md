@@ -11,13 +11,13 @@
 
 ---
 
-## 🎯 Challenge Description
+## Challenge Description
 
 The password for the next level is stored in the file `data.txt`, where all lowercase (a-z) and uppercase (A-Z) letters have been rotated by 13 positions.
 
 ---
 
-## 🔬 Technical Analysis
+## Technical Analysis
 
 ### Classical Cryptography: ROT13 Substitution Cipher
 1. **ROT13 Algorithm**:
@@ -29,7 +29,7 @@ The password for the next level is stored in the file `data.txt`, where all lowe
 
 ---
 
-## 🚀 Solution Walkthrough
+## Solution Walkthrough
 
 ### Step 1: Connect via SSH
 ```bash
@@ -48,7 +48,7 @@ The password is GROozWPO8QyN0mGrjUkID0WCYkZiQxrN
 
 ---
 
-## 🔑 Password Found
+## Password Found
 
 ```text
 GROozWPO8QyN0mGrjUkID0WCYkZiQxrN
@@ -56,11 +56,11 @@ GROozWPO8QyN0mGrjUkID0WCYkZiQxrN
 
 ---
 
-## 💡 Key Takeaways
+## Key Takeaways
 
 - ROT13 is a simple monoalphabetic substitution cipher with zero cryptographic security.
 - Use `tr '<source_chars>' '<target_chars>'` for stream character translation.
 
 ---
 
-[← Previous Level](level_10_to_11.md) | [📋 Summary](README.md) | [Next Level →](level_12_to_13.md)
+[← Previous Level](level_10_to_11.md) | [Summary](README.md) | [Next Level →](level_12_to_13.md)

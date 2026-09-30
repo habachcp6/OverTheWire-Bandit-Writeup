@@ -11,13 +11,13 @@
 
 ---
 
-## 🎯 Challenge Description
+## Challenge Description
 
 The password for the next level is stored in the only human-readable file in the `inhere` directory. Tip: if your terminal is messed up, try the `reset` command.
 
 ---
 
-## 🔬 Technical Analysis
+## Technical Analysis
 
 ### File Signature Inspection & MIME Detection
 1. **Magic Bytes & Header Inspection**:
@@ -29,7 +29,7 @@ The password for the next level is stored in the only human-readable file in the
 
 ---
 
-## 🚀 Solution Walkthrough
+## Solution Walkthrough
 
 ### Step 1: Connect via SSH
 ```bash
@@ -67,7 +67,7 @@ cat inhere/-file07
 
 ---
 
-## 🔑 Password Found
+## Password Found
 
 ```text
 6C7h9GD8M6ai5nr7wo1RonrzFjj9yIrG
@@ -75,11 +75,11 @@ cat inhere/-file07
 
 ---
 
-## 💡 Key Takeaways
+## Key Takeaways
 
 - Use the `file` command to detect file types independently of extensions.
 - Avoid `cat` on binary data files as control characters can break terminal formatting.
 
 ---
 
-[← Previous Level](level_03_to_04.md) | [📋 Summary](README.md) | [Next Level →](level_05_to_06.md)
+[← Previous Level](level_03_to_04.md) | [Summary](README.md) | [Next Level →](level_05_to_06.md)

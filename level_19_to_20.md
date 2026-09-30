@@ -11,13 +11,13 @@
 
 ---
 
-## 🎯 Challenge Description
+## Challenge Description
 
 To gain access to the next level, you should use the setuid binary in the homedirectory. Execute it without arguments to find out how to use it. The password for this level can be found in the usual place (/etc/bandit_pass), after you have used the setuid binary.
 
 ---
 
-## 🔬 Technical Analysis
+## Technical Analysis
 
 ### Linux SUID (Set User ID) Privilege Model
 1. **The SUID Permission Bit**:
@@ -28,7 +28,7 @@ To gain access to the next level, you should use the setuid binary in the homedi
 
 ---
 
-## 🚀 Solution Walkthrough
+## Solution Walkthrough
 
 ### Step 1: Connect via SSH
 ```bash
@@ -65,7 +65,7 @@ uid=11019(bandit19) gid=11019(bandit19) euid=11020(bandit20) groups=11019(bandit
 
 ---
 
-## 🔑 Password Found
+## Password Found
 
 ```text
 4pIjcunZ0fK2vmp3IwfG8Vf7VhxD6pOA
@@ -73,11 +73,11 @@ uid=11019(bandit19) gid=11019(bandit19) euid=11020(bandit20) groups=11019(bandit
 
 ---
 
-## 💡 Key Takeaways
+## Key Takeaways
 
 - SUID binaries execute with the permissions of the file owner (EUID).
 - Improperly designed SUID binaries that execute arbitrary subcommands lead directly to privilege escalation.
 
 ---
 
-[← Previous Level](level_18_to_19.md) | [📋 Summary](README.md) | [Next Level →](level_20_to_21.md)
+[← Previous Level](level_18_to_19.md) | [Summary](README.md) | [Next Level →](level_20_to_21.md)

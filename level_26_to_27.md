@@ -11,13 +11,13 @@
 
 ---
 
-## 🎯 Challenge Description
+## Challenge Description
 
 Good job getting a shell! Now hurry and grab the password for bandit27!
 
 ---
 
-## 🔬 Technical Analysis
+## Technical Analysis
 
 ### Shell Hijacking from Editor & SUID Execution
 1. **Spawning Interactive Shell from `vi`**:
@@ -29,7 +29,7 @@ Good job getting a shell! Now hurry and grab the password for bandit27!
 
 ---
 
-## 🚀 Solution Walkthrough
+## Solution Walkthrough
 
 ### Step 1: Break Out of `vi` into Bash
 While inside `vi` from Level 25→26:
@@ -58,7 +58,7 @@ uid=11026(bandit26) gid=11026(bandit26) groups=11026(bandit26)
 
 ---
 
-## 🔑 Password Found
+## Password Found
 
 ```text
 *(In Progress / Pending)*
@@ -66,11 +66,11 @@ uid=11026(bandit26) gid=11026(bandit26) groups=11026(bandit26)
 
 ---
 
-## 💡 Key Takeaways
+## Key Takeaways
 
 - Text editors with shell invocation capabilities (`:shell`, `:!`) permit full shell breakout from restricted environments.
 - SUID binaries (`bandit27-do`) allow command execution with the privileges of the file owner.
 
 ---
 
-[← Previous Level](level_25_to_26.md) | [📋 Summary](README.md) | [Next Level → (Pending)]
+[← Previous Level](level_25_to_26.md) | [Summary](README.md) | [Next Level → (Pending)]

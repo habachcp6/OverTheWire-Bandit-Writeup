@@ -11,13 +11,13 @@
 
 ---
 
-## 🎯 Challenge Description
+## Challenge Description
 
 Logging in to bandit26 from bandit25 should be fairly easy... The shell for user bandit26 is not /bin/bash, but something else. Find out what it is, how it works and how to break out of it.
 
 ---
 
-## 🔬 Technical Analysis
+## Technical Analysis
 
 ### Restricted Shell Breakout via Pager (`more`) and Editor (`vi`)
 1. **Target Login Shell Inspection**:
@@ -40,7 +40,7 @@ Logging in to bandit26 from bandit25 should be fairly easy... The shell for user
 
 ---
 
-## 🚀 Solution Walkthrough
+## Solution Walkthrough
 
 ### Step 1: Copy Private Key to Local Linux/WSL Environment
 ```bash
@@ -75,7 +75,7 @@ jHdv2ELQhT22BkprMNDjybZDAkw1zeBJ
 
 ---
 
-## 🔑 Password Found
+## Password Found
 
 ```text
 jHdv2ELQhT22BkprMNDjybZDAkw1zeBJ
@@ -83,11 +83,11 @@ jHdv2ELQhT22BkprMNDjybZDAkw1zeBJ
 
 ---
 
-## 💡 Key Takeaways
+## Key Takeaways
 
 - Custom restricted login scripts that rely on pagers (`more`/`less`) can be hijacked using terminal dimension manipulation.
 - Command-line utilities spawned from within pagers (`v` for vi) inherit execution privileges of the active user.
 
 ---
 
-[← Previous Level](level_24_to_25.md) | [📋 Summary](README.md) | [Next Level →](level_26_to_27.md)
+[← Previous Level](level_24_to_25.md) | [Summary](README.md) | [Next Level →](level_26_to_27.md)

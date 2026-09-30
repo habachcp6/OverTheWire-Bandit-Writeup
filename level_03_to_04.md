@@ -11,13 +11,13 @@
 
 ---
 
-## 🎯 Challenge Description
+## Challenge Description
 
 The password for the next level is stored in a hidden file in the `inhere` directory.
 
 ---
 
-## 🔬 Technical Analysis
+## Technical Analysis
 
 ### Unix Hidden Files (Dotfiles)
 1. **Dotfile Convention**:
@@ -29,7 +29,7 @@ The password for the next level is stored in a hidden file in the `inhere` direc
 
 ---
 
-## 🚀 Solution Walkthrough
+## Solution Walkthrough
 
 ### Step 1: Connect via SSH
 ```bash
@@ -60,7 +60,7 @@ xzTXq1rDJQVVAzdv5cHq1TQytTWufAMq
 
 ---
 
-## 🔑 Password Found
+## Password Found
 
 ```text
 xzTXq1rDJQVVAzdv5cHq1TQytTWufAMq
@@ -68,11 +68,11 @@ xzTXq1rDJQVVAzdv5cHq1TQytTWufAMq
 
 ---
 
-## 💡 Key Takeaways
+## Key Takeaways
 
 - Files beginning with a `.` are hidden by default from directory listings.
 - Use `ls -la` or `ls -A` to discover hidden configuration files and artifacts.
 
 ---
 
-[← Previous Level](level_02_to_03.md) | [📋 Summary](README.md) | [Next Level →](level_04_to_05.md)
+[← Previous Level](level_02_to_03.md) | [Summary](README.md) | [Next Level →](level_04_to_05.md)

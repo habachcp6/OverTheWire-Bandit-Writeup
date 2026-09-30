@@ -11,13 +11,13 @@
 
 ---
 
-## 🎯 Challenge Description
+## Challenge Description
 
 The password for the next level is stored in a file called `spaces in this filename` located in the home directory.
 
 ---
 
-## 🔬 Technical Analysis
+## Technical Analysis
 
 ### Shell Word Splitting & Whitespace Handling
 1. **Whitespace as Argument Delimiters**:
@@ -28,7 +28,7 @@ The password for the next level is stored in a file called `spaces in this filen
 
 ---
 
-## 🚀 Solution Walkthrough
+## Solution Walkthrough
 
 ### Step 1: Connect via SSH
 ```bash
@@ -58,7 +58,7 @@ Type `cat spa` and press `Tab` on your keyboard. Bash will automatically escape 
 
 ---
 
-## 🔑 Password Found
+## Password Found
 
 ```text
 7ZZ2LFrykP2zEyvBl4m3clcL7tGYJPME
@@ -66,7 +66,7 @@ Type `cat spa` and press `Tab` on your keyboard. Bash will automatically escape 
 
 ---
 
-## 💡 Key Takeaways
+## Key Takeaways
 
 - Spaces in filenames cause shells to split them into separate command arguments.
 - Enclosing names in quotes or escaping spaces with `\` handles whitespace safely.
@@ -74,4 +74,4 @@ Type `cat spa` and press `Tab` on your keyboard. Bash will automatically escape 
 
 ---
 
-[← Previous Level](level_01_to_02.md) | [📋 Summary](README.md) | [Next Level →](level_03_to_04.md)
+[← Previous Level](level_01_to_02.md) | [Summary](README.md) | [Next Level →](level_03_to_04.md)

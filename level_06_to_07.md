@@ -11,7 +11,7 @@
 
 ---
 
-## 🎯 Challenge Description
+## Challenge Description
 
 The password for the next level is stored somewhere on the server and has all of the following properties:
 - owned by user bandit7
@@ -20,7 +20,7 @@ The password for the next level is stored somewhere on the server and has all of
 
 ---
 
-## 🔬 Technical Analysis
+## Technical Analysis
 
 ### System-Wide Searches & STDERR Redirection
 1. **Ownership Filtering**:
@@ -33,7 +33,7 @@ The password for the next level is stored somewhere on the server and has all of
 
 ---
 
-## 🚀 Solution Walkthrough
+## Solution Walkthrough
 
 ### Step 1: Connect via SSH
 ```bash
@@ -61,7 +61,7 @@ Bmnnvf82KzQlfxgAI2d1zYbr1u9pr3E3
 
 ---
 
-## 🔑 Password Found
+## Password Found
 
 ```text
 Bmnnvf82KzQlfxgAI2d1zYbr1u9pr3E3
@@ -69,11 +69,11 @@ Bmnnvf82KzQlfxgAI2d1zYbr1u9pr3E3
 
 ---
 
-## 💡 Key Takeaways
+## Key Takeaways
 
 - Linux file ownership is tracked via User (UID) and Group (GID).
 - Redirecting errors with `2>/dev/null` eliminates noise during privilege-restricted scans.
 
 ---
 
-[← Previous Level](level_05_to_06.md) | [📋 Summary](README.md) | [Next Level →](level_07_to_08.md)
+[← Previous Level](level_05_to_06.md) | [Summary](README.md) | [Next Level →](level_07_to_08.md)

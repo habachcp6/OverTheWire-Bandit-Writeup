@@ -11,13 +11,13 @@
 
 ---
 
-## 🎯 Challenge Description
+## Challenge Description
 
 The password for the next level can be retrieved by submitting the password of the current level to port 30001 on localhost using SSL encryption.
 
 ---
 
-## 🔬 Technical Analysis
+## Technical Analysis
 
 ### Encrypted Transport Layer (SSL/TLS) Communication
 1. **Netcat Limitation on Encrypted Sockets**:
@@ -30,7 +30,7 @@ The password for the next level can be retrieved by submitting the password of t
 
 ---
 
-## 🚀 Solution Walkthrough
+## Solution Walkthrough
 
 ### Step 1: Connect via SSH
 ```bash
@@ -55,7 +55,7 @@ closed
 
 ---
 
-## 🔑 Password Found
+## Password Found
 
 ```text
 kS0Hf0u5HiXFwKMKFqXvPdOTNGGa0X8V
@@ -63,11 +63,11 @@ kS0Hf0u5HiXFwKMKFqXvPdOTNGGa0X8V
 
 ---
 
-## 💡 Key Takeaways
+## Key Takeaways
 
 - Encrypted ports require dedicated TLS clients like `openssl s_client` or `socat`.
 - Use `openssl s_client -quiet` to suppress verbose certificate metadata.
 
 ---
 
-[← Previous Level](level_14_to_15.md) | [📋 Summary](README.md) | [Next Level →](level_16_to_17.md)
+[← Previous Level](level_14_to_15.md) | [Summary](README.md) | [Next Level →](level_16_to_17.md)

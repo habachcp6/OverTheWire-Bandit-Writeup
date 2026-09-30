@@ -11,13 +11,13 @@
 
 ---
 
-## 🎯 Challenge Description
+## Challenge Description
 
 The password for the next level is stored in the file `data.txt` and is the only line of text that occurs only once.
 
 ---
 
-## 🔬 Technical Analysis
+## Technical Analysis
 
 ### Data Sorting & Deduplication with Unix Pipelines
 1. **The `uniq` Requirement**:
@@ -29,7 +29,7 @@ The password for the next level is stored in the file `data.txt` and is the only
 
 ---
 
-## 🚀 Solution Walkthrough
+## Solution Walkthrough
 
 ### Step 1: Connect via SSH
 ```bash
@@ -48,7 +48,7 @@ EjmOSvuAu7sGAHqHVcBDPirRe9T03kxl
 
 ---
 
-## 🔑 Password Found
+## Password Found
 
 ```text
 EjmOSvuAu7sGAHqHVcBDPirRe9T03kxl
@@ -56,11 +56,11 @@ EjmOSvuAu7sGAHqHVcBDPirRe9T03kxl
 
 ---
 
-## 💡 Key Takeaways
+## Key Takeaways
 
 - `uniq` only compares adjacent lines; always pipe through `sort` first.
 - `uniq -u` filters for truly unique items occurring exactly once.
 
 ---
 
-[← Previous Level](level_07_to_08.md) | [📋 Summary](README.md) | [Next Level →](level_09_to_10.md)
+[← Previous Level](level_07_to_08.md) | [Summary](README.md) | [Next Level →](level_09_to_10.md)

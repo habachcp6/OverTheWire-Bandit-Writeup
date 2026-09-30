@@ -11,13 +11,13 @@
 
 ---
 
-## 🎯 Challenge Description
+## Challenge Description
 
 The credentials for the next level can be retrieved by submitting the password of the current level to a port on localhost in the range 31000 to 32000. First find out which of these ports have a server listening on them. Then find out which of those speak SSL and which don't.
 
 ---
 
-## 🔬 Technical Analysis
+## Technical Analysis
 
 ### Port Scanning & Server Logic Discrimination
 1. **Network Reconnaissance with `nmap`**:
@@ -31,7 +31,7 @@ The credentials for the next level can be retrieved by submitting the password o
 
 ---
 
-## 🚀 Solution Walkthrough
+## Solution Walkthrough
 
 ### Step 1: Connect via SSH
 ```bash
@@ -79,7 +79,7 @@ chmod 600 bandit17.key
 
 ---
 
-## 🔑 Password Found
+## Password Found
 
 ```text
 SSH Private Key (file bandit17.key)
@@ -87,11 +87,11 @@ SSH Private Key (file bandit17.key)
 
 ---
 
-## 💡 Key Takeaways
+## Key Takeaways
 
 - Use `nmap` port scanning to identify active services across port ranges.
 - Private keys must be protected with `chmod 600` permissions to be usable by OpenSSH.
 
 ---
 
-[← Previous Level](level_15_to_16.md) | [📋 Summary](README.md) | [Next Level →](level_17_to_18.md)
+[← Previous Level](level_15_to_16.md) | [Summary](README.md) | [Next Level →](level_17_to_18.md)

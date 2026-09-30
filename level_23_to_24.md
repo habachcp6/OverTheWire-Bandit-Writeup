@@ -11,13 +11,13 @@
 
 ---
 
-## 🎯 Challenge Description
+## Challenge Description
 
 A program is running automatically at regular intervals from `cron`, the time-based job scheduler. Look in `/etc/cron.d/` for the configuration and see what command is being executed.
 
 ---
 
-## 🔬 Technical Analysis
+## Technical Analysis
 
 ### Insecure Spool Directory Execution Vulnerability
 1. **Vulnerability in `/usr/bin/cronjob_bandit24.sh`**:
@@ -40,7 +40,7 @@ A program is running automatically at regular intervals from `cron`, the time-ba
 
 ---
 
-## 🚀 Solution Walkthrough
+## Solution Walkthrough
 
 ### Step 1: Connect via SSH
 ```bash
@@ -81,7 +81,7 @@ hVQMk3lJNsmQ7VF3ubyrNNBom7BOgVXv
 
 ---
 
-## 🔑 Password Found
+## Password Found
 
 ```text
 hVQMk3lJNsmQ7VF3ubyrNNBom7BOgVXv
@@ -89,11 +89,11 @@ hVQMk3lJNsmQ7VF3ubyrNNBom7BOgVXv
 
 ---
 
-## 💡 Key Takeaways
+## Key Takeaways
 
 - Privileged cron jobs executing files from world-writable directories represent critical Remote Code Execution (RCE) flaws.
 - Ensure shared output directories have `chmod 777` permissions so target processes can write files across user boundaries.
 
 ---
 
-[← Previous Level](level_22_to_23.md) | [📋 Summary](README.md) | [Next Level →](level_24_to_25.md)
+[← Previous Level](level_22_to_23.md) | [Summary](README.md) | [Next Level →](level_24_to_25.md)

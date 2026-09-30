@@ -11,13 +11,13 @@
 
 ---
 
-## 🎯 Challenge Description
+## Challenge Description
 
 The password for the next level is stored in the file `data.txt`, which contains base64 encoded data.
 
 ---
 
-## 🔬 Technical Analysis
+## Technical Analysis
 
 ### Base64 Encoding Mechanism
 1. **Base64 Representation**:
@@ -28,7 +28,7 @@ The password for the next level is stored in the file `data.txt`, which contains
 
 ---
 
-## 🚀 Solution Walkthrough
+## Solution Walkthrough
 
 ### Step 1: Connect via SSH
 ```bash
@@ -47,7 +47,7 @@ The password is pYfOY6HwUsDj5rL9UvyhU7MCmv8vN5Ro
 
 ---
 
-## 🔑 Password Found
+## Password Found
 
 ```text
 pYfOY6HwUsDj5rL9UvyhU7MCmv8vN5Ro
@@ -55,11 +55,11 @@ pYfOY6HwUsDj5rL9UvyhU7MCmv8vN5Ro
 
 ---
 
-## 💡 Key Takeaways
+## Key Takeaways
 
 - Base64 is an encoding format (not encryption) used for safe transmission over text channels.
 - Use `base64 -d` to decode Base64 encoded files or STDIN streams.
 
 ---
 
-[← Previous Level](level_09_to_10.md) | [📋 Summary](README.md) | [Next Level →](level_11_to_12.md)
+[← Previous Level](level_09_to_10.md) | [Summary](README.md) | [Next Level →](level_11_to_12.md)

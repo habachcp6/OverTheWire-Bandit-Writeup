@@ -11,13 +11,13 @@
 
 ---
 
-## 🎯 Challenge Description
+## Challenge Description
 
 The password for the next level is stored in the file `data.txt` in one of the few human-readable strings, preceded by several '=' characters.
 
 ---
 
-## 🔬 Technical Analysis
+## Technical Analysis
 
 ### Binary Forensics with `strings`
 1. **Filtering Printable Characters from Binary**:
@@ -27,7 +27,7 @@ The password for the next level is stored in the file `data.txt` in one of the f
 
 ---
 
-## 🚀 Solution Walkthrough
+## Solution Walkthrough
 
 ### Step 1: Connect via SSH
 ```bash
@@ -49,7 +49,7 @@ strings data.txt | grep "=="
 
 ---
 
-## 🔑 Password Found
+## Password Found
 
 ```text
 B0s2khmbT9u0geKuOoVGW3JZKhndE3BG
@@ -57,11 +57,11 @@ B0s2khmbT9u0geKuOoVGW3JZKhndE3BG
 
 ---
 
-## 💡 Key Takeaways
+## Key Takeaways
 
 - Use `strings` to inspect compiled binaries, memory dumps, and corrupt binary files.
 - Combine `strings` with `grep` to quickly discover embedded hardcoded keys and credentials.
 
 ---
 
-[← Previous Level](level_08_to_09.md) | [📋 Summary](README.md) | [Next Level →](level_10_to_11.md)
+[← Previous Level](level_08_to_09.md) | [Summary](README.md) | [Next Level →](level_10_to_11.md)

@@ -11,13 +11,13 @@
 
 ---
 
-## 🎯 Challenge Description
+## Challenge Description
 
 A program is running automatically at regular intervals from `cron`, the time-based job scheduler. Look in `/etc/cron.d/` for the configuration and see what command is being executed.
 
 ---
 
-## 🔬 Technical Analysis
+## Technical Analysis
 
 ### Linux Scheduled Tasks (Cron Jobs)
 1. **Cron Configuration Architecture**:
@@ -31,7 +31,7 @@ A program is running automatically at regular intervals from `cron`, the time-ba
 
 ---
 
-## 🚀 Solution Walkthrough
+## Solution Walkthrough
 
 ### Step 1: Connect via SSH
 ```bash
@@ -71,7 +71,7 @@ RYVux2rHEm9tiXHmLFzuR7Vhx6AZQMEz
 
 ---
 
-## 🔑 Password Found
+## Password Found
 
 ```text
 RYVux2rHEm9tiXHmLFzuR7Vhx6AZQMEz
@@ -79,11 +79,11 @@ RYVux2rHEm9tiXHmLFzuR7Vhx6AZQMEz
 
 ---
 
-## 💡 Key Takeaways
+## Key Takeaways
 
 - Always inspect `/etc/cron*` during Linux privilege escalation reconnaissance.
 - World-readable files created by privileged cron jobs expose sensitive credentials.
 
 ---
 
-[← Previous Level](level_20_to_21.md) | [📋 Summary](README.md) | [Next Level →](level_22_to_23.md)
+[← Previous Level](level_20_to_21.md) | [Summary](README.md) | [Next Level →](level_22_to_23.md)

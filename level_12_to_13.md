@@ -11,13 +11,13 @@
 
 ---
 
-## 🎯 Challenge Description
+## Challenge Description
 
 The password for the next level is stored in the file `data.txt`, which is a hexdump of a file that has been repeatedly compressed. For this level it may be useful to create a directory under `/tmp` in which you can work.
 
 ---
 
-## 🔬 Technical Analysis
+## Technical Analysis
 
 ### Hexdump Reversal & Multi-Layer Compression Analysis
 1. **Hexdump Restoration (`xxd -r`)**:
@@ -33,7 +33,7 @@ The password for the next level is stored in the file `data.txt`, which is a hex
 
 ---
 
-## 🚀 Solution Walkthrough
+## Solution Walkthrough
 
 ### Step 1: Connect via SSH & Setup Work Directory
 ```bash
@@ -86,7 +86,7 @@ The password is qQYQiHOBPR8zR61qxYqX45quvihF2uzk
 
 ---
 
-## 🔑 Password Found
+## Password Found
 
 ```text
 qQYQiHOBPR8zR61qxYqX45quvihF2uzk
@@ -94,7 +94,7 @@ qQYQiHOBPR8zR61qxYqX45quvihF2uzk
 
 ---
 
-## 💡 Key Takeaways
+## Key Takeaways
 
 - Use `xxd -r` to reconstruct binaries from hexdump text files.
 - Always inspect actual magic bytes with `file` instead of relying on file names.
@@ -102,4 +102,4 @@ qQYQiHOBPR8zR61qxYqX45quvihF2uzk
 
 ---
 
-[← Previous Level](level_11_to_12.md) | [📋 Summary](README.md) | [Next Level →](level_13_to_14.md)
+[← Previous Level](level_11_to_12.md) | [Summary](README.md) | [Next Level →](level_13_to_14.md)
